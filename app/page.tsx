@@ -93,8 +93,8 @@ const internships = [
     title: "Software Developer Intern",
     company: "Fidelity International",
     duration: "Jan'25 – Jul'25 (6 Months)",
-    description: "Working on open rewrite(Java Version Upgrade) and Proofpoint's Secure email relay.",
-    status: "Current",
+    description: "Worked on open rewrite(Java Version Upgrade) and Developed an inner source module for email automation",
+    status: "Completed",
     certificate: "/placeholder.svg?height=600&width=800&text=Fidelity+International+Internship+Certificate",
   },
   {
@@ -103,7 +103,7 @@ const internships = [
     duration: "May'24 – July'24 (2 Months)",
     description: "Worked on Proctoring System Project.",
     status: "Completed",
-    certificate: "/placeholder.svg?height=600&width=800&text=Brillanz+Software+Solutions+Internship+Certificate",
+    certificate: "/Brillanz Internship Certificate.png",
   },
   {
     title: "Salesforce Developer Intern",
@@ -111,7 +111,7 @@ const internships = [
     duration: "May'24 - July'24 (2 Months)",
     description: "Worked on Apex, Visualforce and Lightning Web Components to meet client requirements.",
     status: "Completed",
-    certificate: "/placeholder.svg?height=600&width=800&text=Salesforce+Developer+Internship+Certificate",
+    certificate: "/Salesforce Internship Certificate.png",
   },
   {
     title: "Artificial Intelligence Intern",
@@ -120,7 +120,7 @@ const internships = [
     description:
       "Worked on a Natural Language Processing project and Computer Vision project, focusing on analyzing and interpreting visual data.",
     status: "Completed",
-    certificate: "/placeholder.svg?height=600&width=800&text=Intern+Career+AI+Internship+Certificate",
+    certificate: "/Artificial Intelligence InternCareer cert.png",
   },
   {
     title: "Management Trainee",
@@ -128,7 +128,7 @@ const internships = [
     duration: "14-05-2024 to 01-07-2024",
     description: "Management training program with comprehensive professional development.",
     status: "Completed",
-    certificate: "/placeholder.svg?height=600&width=800&text=Lacozy+Enterprises+Management+Trainee+Certificate",
+    certificate: "Lacozy cert.png",
   },
 ]
 
@@ -176,7 +176,7 @@ const publications = [
   },
 ]
 
-const hobbies = ["Listening to Songs", "Dancing to the classical music", "Playing Badminton"]
+const hobbies = ["Listening to Songs", "Dancing", "Playing Badminton"]
 
 const certificateCategories = {
   "AI & Machine Learning": [
@@ -466,12 +466,12 @@ export default function ModernPortfolio() {
                 <Sparkles className="w-4 h-4 text-black" />
               </div>
               <span className="font-bold text-lg bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                Asmitha
+                Boddu Asmitha Bhavya
               </span>
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 overflow-x-auto whitespace-nowrap">
               {navigationItems.map((item) => (
                 <button
                   key={item.id}
@@ -526,7 +526,7 @@ export default function ModernPortfolio() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6">
-        <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-transparent to-yellow-600/5" />
+        <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-transparent to-yellow-600/5 pointer-events-none" />
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="relative group">
@@ -552,7 +552,7 @@ export default function ModernPortfolio() {
                 </h1>
                 <div className="h-1 w-24 bg-gradient-to-r from-yellow-400 to-yellow-600 mx-auto lg:mx-0 mb-6" />
                 <p className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
-                  AI Engineer & Full-Stack Developer passionate about creating innovative solutions with cutting-edge
+                  AI Engineer, Full-Stack Developer & Software Engineer passionate about creating innovative solutions with cutting-edge
                   technologies
                 </p>
               </div>
@@ -569,7 +569,7 @@ export default function ModernPortfolio() {
                 </button>
               </div>
 
-              <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+              {/* <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <Button
                   variant="outline"
                   className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 bg-transparent"
@@ -586,7 +586,38 @@ export default function ModernPortfolio() {
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </Button>
+              </div> */}
+              <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 bg-transparent"
+                >
+                  <a
+                    href={personalInfo.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Linkedin className="w-4 h-4 mr-2" />
+                    LinkedIn
+                  </a>
+                </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 bg-transparent"
+                >
+                  <a
+                    href={personalInfo.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="w-4 h-4 mr-2" />
+                    GitHub
+                  </a>
+                </Button>
               </div>
+
             </div>
           </div>
         </div>

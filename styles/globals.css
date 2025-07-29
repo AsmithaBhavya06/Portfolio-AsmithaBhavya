@@ -88,3 +88,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.dialog-close,
+[data-dialog-close] {
+  color: #fbbf24 !important; /* Tailwind yellow-400 */
+  border-color: #fbbf24 !important;
+}
+.dialog-close:hover,
+[data-dialog-close]:hover {
+  color: #fde68a !important; /* Tailwind yellow-300 */
+  border-color: #fde68a !important;
+}
