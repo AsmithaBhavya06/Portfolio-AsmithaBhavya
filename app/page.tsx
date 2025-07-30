@@ -173,6 +173,7 @@ const publications = [
     description:
       "This paper presents a comprehensive system for real-time audio recognition and text conversion, utilizing advanced machine learning algorithms for accurate speech-to-text processing.",
     status: "Published",
+    link: "https://ieeexplore.ieee.org/document/10932489",
   },
 ]
 
@@ -183,30 +184,23 @@ const certificateCategories = {
     {
       title: "Generative AI Foundational Course",
       date: "02/04/2025",
-      issuer: "Company Training",
-      image: "/placeholder.svg?height=600&width=800&text=Generative+AI+Foundational+Course+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/Gen ai found course.png",
       description: "Comprehensive course covering fundamentals of Generative AI technologies and applications.",
     },
     {
       title: "Get Ready for Generative AI",
       date: "25/03/2025",
-      issuer: "Company Training",
-      image: "/placeholder.svg?height=600&width=800&text=Get+Ready+for+Generative+AI+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/get ready gen ai.png",
       description: "Preparatory course for understanding and implementing Generative AI solutions.",
     },
     {
       title: "Generative AI for Everyone",
       date: "5/24/2025",
-      issuer: "Online Course",
-      image: "/placeholder.svg?height=600&width=800&text=Generative+AI+for+Everyone+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/gen ai for everyone.png",
       description: "Course designed to make Generative AI accessible to professionals across industries.",
-    },
-    {
-      title: "Artificial Intelligence Intern",
-      date: "29 NOV 2023",
-      issuer: "Intern Career",
-      image: "/placeholder.svg?height=600&width=800&text=AI+Intern+Certificate+Intern+Career",
-      description: "30-day internship focusing on Natural Language Processing and Computer Vision projects.",
     },
   ],
   "API Development": [
@@ -215,7 +209,7 @@ const certificateCategories = {
       date: "7/1/2025",
       issuer: "LinkedIn Learning",
       duration: "1 hour 6 minutes",
-      image: "/placeholder.svg?height=600&width=800&text=LinkedIn+Learning+REST+APIs+Certificate",
+      image: "/learning rest api.png",
       description: "Comprehensive training on REST API design principles and implementation.",
     },
     {
@@ -223,7 +217,7 @@ const certificateCategories = {
       date: "7/1/2025",
       issuer: "LinkedIn Learning",
       duration: "1 hour 20 minutes",
-      image: "/placeholder.svg?height=600&width=800&text=Designing+RESTful+APIs+Certificate",
+      image: "/designing restfull api.png",
       description: "Advanced course on RESTful API design patterns and best practices.",
     },
     {
@@ -231,7 +225,7 @@ const certificateCategories = {
       date: "7/1/2025",
       issuer: "LinkedIn Learning",
       duration: "3 hours 4 minutes",
-      image: "/placeholder.svg?height=600&width=800&text=Swagger+OpenAPI+Certificate+LinkedIn",
+      image: "/building apis with swagger.png",
       description: "Advanced course on API documentation and specification using Swagger and OpenAPI.",
     },
     {
@@ -239,14 +233,14 @@ const certificateCategories = {
       date: "7/1/2025",
       issuer: "LinkedIn Learning",
       duration: "1 hour 33 minutes",
-      image: "/placeholder.svg?height=600&width=800&text=API+Testing+Foundations+Certificate",
+      image: "/api testing foundations.png",
       description: "Fundamentals of API testing methodologies and best practices.",
     },
     {
       title: "API 101 - The Basics",
       date: "5/29/2025",
-      issuer: "Training Course",
-      image: "/placeholder.svg?height=600&width=800&text=API+101+The+Basics+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/Api 101 basics.png",
       description: "Introduction to API concepts and fundamental principles.",
     },
   ],
@@ -254,22 +248,22 @@ const certificateCategories = {
     {
       title: "Learning Cloud Fundamentals - 101",
       date: "5/25/2025",
-      issuer: "Training Course",
-      image: "/placeholder.svg?height=600&width=800&text=Cloud+Fundamentals+101+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/Learning cloud fund.png",
       description: "Introduction to cloud computing concepts and technologies.",
     },
     {
       title: "AWS Cloud Practitioner Essentials",
       date: "May 25, 2025",
       issuer: "AWS",
-      image: "/placeholder.svg?height=600&width=800&text=AWS+Cloud+Practitioner+Certificate",
+      image: "/aws cloud practitioner.png",
       description: "Foundation-level course covering AWS cloud concepts and services.",
     },
     {
       title: "Job Roles in the Cloud",
       date: "5/25/2025",
       issuer: "AWS",
-      image: "/placeholder.svg?height=600&width=800&text=Job+Roles+in+the+Cloud+Certificate",
+      image: "/job roles in cloud.png",
       description: "Overview of various career opportunities in cloud computing.",
     },
   ],
@@ -279,23 +273,16 @@ const certificateCategories = {
       date: "2023-03-14",
       issuer: "Internshala",
       duration: "8-week training",
-      image: "/placeholder.svg?height=600&width=800&text=Internshala+Web+Development+Certificate",
+      image: "/web development.png",
       description: "Comprehensive web development training covering HTML, CSS, JavaScript, React, and more.",
     },
     {
       title: "Android App Development",
       date: "2023-09-06",
-      issuer: "Internshala",
+      issuer: "Internshala & NSDC",
       duration: "8-week training",
-      image: "/placeholder.svg?height=600&width=800&text=Internshala+Android+Development+Certificate",
+      image: "/NSDC andriod app dev.png",
       description: "Complete Android app development course covering Kotlin and Android fundamentals.",
-    },
-    {
-      title: "Mobile App Development",
-      date: "2018-2023",
-      issuer: "Li2 Technologies",
-      image: "/placeholder.svg?height=600&width=800&text=Li2+Technologies+Mobile+App+Development",
-      description: "Professional mobile app development certification from Li2 Technologies.",
     },
   ],
   "Networking & Security": [
@@ -303,7 +290,7 @@ const certificateCategories = {
       title: "CCNAv7: Introduction to Networks",
       date: "29 Nov 2023",
       issuer: "Cisco Networking Academy",
-      image: "/placeholder.svg?height=600&width=800&text=Cisco+CCNA+Certificate+Networking",
+      image: "/Intro to networks.png",
       description: "Comprehensive networking course covering Cisco networking fundamentals.",
     },
     {
@@ -311,14 +298,14 @@ const certificateCategories = {
       date: "Jan-Feb 2024",
       issuer: "NPTEL",
       score: "64%",
-      image: "/placeholder.svg?height=600&width=800&text=NPTEL+Systems+Usable+Security+Certificate",
+      image: "/System and usable security.png",
       description: "Academic course on systems security and usability principles.",
     },
     {
       title: "Cyber Security",
       date: "12-Dec-2023 to 12-Feb-2024",
       issuer: "Acmegrade",
-      image: "/placeholder.svg?height=600&width=800&text=Cyber+Security+Certificate+Acmegrade",
+      image: "/cyber sec train.png",
       description: "Intensive cybersecurity training covering threat analysis and security protocols.",
     },
   ],
@@ -326,37 +313,37 @@ const certificateCategories = {
     {
       title: "GitHub Copilot Risk, Controls & Usage Guidance",
       date: "01/04/2025",
-      issuer: "Company Training",
-      image: "/placeholder.svg?height=600&width=800&text=GitHub+Copilot+Risk+Controls+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/github copilot risk, contr.png",
       description: "Training on responsible use of GitHub Copilot and AI coding assistants.",
     },
     {
       title: "Health, Safety and Sustainability - 2022",
       date: "14/02/2025",
-      issuer: "Company Training",
-      image: "/placeholder.svg?height=600&width=800&text=Health+Safety+Sustainability+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/health safety and sus.png",
       description: "Corporate training on workplace health, safety, and sustainability practices.",
     },
     {
       title: "ServiceNow Micro-Certification - Welcome to ServiceNow",
       date: "August 1, 2024",
       issuer: "ServiceNow",
-      image: "/placeholder.svg?height=600&width=800&text=ServiceNow+Micro+Certification+Welcome",
+      image: "/micro cert service now.png",
       description: "Introduction to ServiceNow platform and its capabilities.",
     },
     {
       title: "Technology Bootcamp",
       date: "27/01/2025 - 29/01/2025",
-      issuer: "Company Training",
+      issuer: "Fidelity International Company Training",
       duration: "5 Hours 15 Minutes",
-      image: "/placeholder.svg?height=600&width=800&text=Technology+Bootcamp+Certificate",
+      image: "/tech bootcamp.png",
       description: "Intensive technology training bootcamp covering latest industry trends.",
     },
     {
       title: "PTT Global New Joiner - Broken Trust",
       date: "14/02/2025",
       issuer: "PTT Global",
-      image: "/placeholder.svg?height=600&width=800&text=PTT+Global+New+Joiner+Certificate",
+      image: "/ptt blobal new joiner.png",
       description: "New employee orientation and trust-building training program.",
     },
   ],
@@ -366,7 +353,7 @@ const certificateCategories = {
       date: "Jul-Oct 2024",
       issuer: "NPTEL",
       score: "65%",
-      image: "/placeholder.svg?height=600&width=800&text=NPTEL+Economics+of+Innovation+Certificate",
+      image: "/eco of inno.png",
       description: "12-week academic course on innovation economics and technology management.",
     },
     {
@@ -374,14 +361,14 @@ const certificateCategories = {
       date: "Jul-Aug 2024",
       issuer: "NPTEL",
       score: "71%",
-      image: "/placeholder.svg?height=600&width=800&text=NPTEL+Sociology+of+Science+Certificate",
+      image: "/soc of sci.png",
       description: "4-week course exploring the social aspects of scientific research and development.",
     },
     {
       title: "Data Cadet",
       date: "5/29/2025",
-      issuer: "Training Course",
-      image: "/placeholder.svg?height=600&width=800&text=Data+Cadet+Certificate",
+      issuer: "Fidelity International Company Training",
+      image: "/data cadet.png",
       description: "Foundational data science and analytics training program.",
     },
   ],
@@ -390,14 +377,14 @@ const certificateCategories = {
       title: "Certificate of Participation - MCQ Coding Assessment",
       date: "2024",
       issuer: "Unstop Talent Park",
-      image: "/placeholder.svg?height=600&width=800&text=Unstop+MCQ+Coding+Assessment+Certificate",
+      image: "/unstop talent park.png",
       description: "Participation in coding assessment organized by Unstop Talent Park.",
     },
     {
       title: "Certificate of Appreciation",
       date: "2023",
       issuer: "JAX Foundation India",
-      image: "/placeholder.svg?height=600&width=800&text=JAX+Foundation+Certificate+of+Appreciation",
+      image: "/jax appriciation.png",
       description: "Recognition for generous support towards noble causes and community service.",
     },
     {
@@ -405,15 +392,22 @@ const certificateCategories = {
       date: "2024",
       issuer: "JAX Foundation",
       duration: "60 Hours",
-      image: "/placeholder.svg?height=600&width=800&text=JAX+Foundation+Child+Education+Certificate",
+      image: "/jax completion.png",
       description: "Internship completion in child education and environmental studies.",
     },
     {
       title: "Certificate of Participation - Copilot in Windows 11 & Microsoft 365",
       date: "02-05-2024",
       issuer: "Amity Technical Placement Centre",
-      image: "/placeholder.svg?height=600&width=800&text=Amity+Copilot+Windows+Microsoft+Certificate",
+      image: "/microsoft copilot in win 11.png",
       description: "Participation in seminar on Copilot integration in Windows 11 and Microsoft 365.",
+    },
+    {
+      title: "Certificate of Merit - Naukri Campus Young Turks",
+      date: "11-10-2024",
+      issuer: "Naukri Campus",
+      image: "naukri young turks.png",
+      description: "Merit score in Naukri campus young turks competition.",
     },
   ],
 }
@@ -568,25 +562,6 @@ export default function ModernPortfolio() {
                   {personalInfo.email}
                 </button>
               </div>
-
-              {/* <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                <Button
-                  variant="outline"
-                  className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 bg-transparent"
-                  onClick={() => window.open(personalInfo.linkedin, "_blank")}
-                >
-                  <Linkedin className="w-4 h-4 mr-2" />
-                  LinkedIn
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 bg-transparent"
-                  onClick={() => window.open(personalInfo.github, "_blank")}
-                >
-                  <Github className="w-4 h-4 mr-2" />
-                  GitHub
-                </Button>
-              </div> */}
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <Button
                   asChild
@@ -1065,7 +1040,7 @@ export default function ModernPortfolio() {
                     <Button
                       variant="outline"
                       className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black bg-transparent"
-                      onClick={() => window.open("#", "_blank")}
+                      onClick={() => window.open("https://ieeexplore.ieee.org/document/10932489", "_blank")}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Publication
